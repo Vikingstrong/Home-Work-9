@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Work 9</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    
+<body class="bg-[#252B42] text-white">
+<header class="flex flex-col p-6.25 items-center gap-15 lg:max-w-300 lg:m-auto lg:justify-between lg:flex-row">
+    <div class="flex justify-between w-full items-center">
+        <h1 class="font-bold text-[26px]">BrandName</h1>
+        <div class="flex gap-5 lg:hidden">
+            <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+        </div>
+    </div>
+    <nav class="flex flex-col gap-5 text-[30px] items-center lg:flex-row lg:text-[18px]">
+        <p>Home</p>
+        <p>Product</p>
+        <p>Pricing</p>
+        <p>Contact</p>
+    </nav>
+    <div class="hidden lg:flex items-center justify-end w-[250%]">
+        <button class="px-10 font-bold">Login</button>
+        <button class="py-4 px-6 font-bold rounded-[5px] bg-[#23A6F0]">Become a member</button>
+    </div>
+</header>
 </body>
 </html>
