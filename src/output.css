@@ -167,6 +167,9 @@
   }
 }
 @layer utilities {
+  .right-px {
+    right: 1px;
+  }
   .m-auto {
     margin: auto;
   }
@@ -297,6 +300,21 @@
   .p-10 {
     padding: calc(var(--spacing) * 10);
   }
+  .px-1 {
+    padding-inline: calc(var(--spacing) * 1);
+  }
+  .px-1\.5 {
+    padding-inline: calc(var(--spacing) * 1.5);
+  }
+  .px-2 {
+    padding-inline: calc(var(--spacing) * 2);
+  }
+  .px-3 {
+    padding-inline: calc(var(--spacing) * 3);
+  }
+  .px-5 {
+    padding-inline: calc(var(--spacing) * 5);
+  }
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
   }
@@ -320,6 +338,33 @@
   }
   .px-15 {
     padding-inline: calc(var(--spacing) * 15);
+  }
+  .px-60 {
+    padding-inline: calc(var(--spacing) * 60);
+  }
+  .px-\[4\.1px\] {
+    padding-inline: 4.1px;
+  }
+  .px-\[4\.2px\] {
+    padding-inline: 4.2px;
+  }
+  .px-\[4\.3px\] {
+    padding-inline: 4.3px;
+  }
+  .px-\[4\.5px\] {
+    padding-inline: 4.5px;
+  }
+  .px-\[4p\] {
+    padding-inline: 4p;
+  }
+  .px-\[4px\] {
+    padding-inline: 4px;
+  }
+  .px-\[5px\] {
+    padding-inline: 5px;
+  }
+  .px-\[6px\] {
+    padding-inline: 6px;
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
@@ -464,6 +509,31 @@
       width: 60%;
     }
   }
+  .lg\:w-\[100\%\] {
+    @media (width >= 64rem) {
+      width: 100%;
+    }
+  }
+  .lg\:w-\[150\%\] {
+    @media (width >= 64rem) {
+      width: 150%;
+    }
+  }
+  .lg\:w-\[180\%\] {
+    @media (width >= 64rem) {
+      width: 180%;
+    }
+  }
+  .lg\:w-\[200\%\] {
+    @media (width >= 64rem) {
+      width: 200%;
+    }
+  }
+  .lg\:w-full {
+    @media (width >= 64rem) {
+      width: 100%;
+    }
+  }
   .lg\:max-w-300 {
     @media (width >= 64rem) {
       max-width: calc(var(--spacing) * 300);
@@ -507,6 +577,36 @@
   .lg\:gap-10 {
     @media (width >= 64rem) {
       gap: calc(var(--spacing) * 10);
+    }
+  }
+  .lg\:gap-25 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 25);
+    }
+  }
+  .lg\:gap-50 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 50);
+    }
+  }
+  .lg\:gap-60 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 60);
+    }
+  }
+  .lg\:gap-70 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 70);
+    }
+  }
+  .lg\:gap-80 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 80);
+    }
+  }
+  .lg\:gap-100 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 100);
     }
   }
   .lg\:border {
